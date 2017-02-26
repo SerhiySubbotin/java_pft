@@ -1,24 +1,20 @@
 package ua.serhiy_subbotin.sandbox;
 
+import static java.lang.Math.sqrt;
+
 public class MyFirstProgram {
 
 	public static void main(String[] args) {
-		double l = 5;
-		double a = 4;
-		double b = 6;
-		hello("world");
-		hello("user");
-		hello("Serhiy");
-		System.out.println(l + " " + area(l));
-		System.out.println(a + " * " + b + " " + area(a, b));
+		//Square s = new Square(5);
+		//Rectangle r = new Rectangle(4,6);
+		//hello("world");
+		//hello("user");
+		//hello("Serhiy");
+		//System.out.println(s.l + " " + s.area());
+		//System.out.println(r.a + " * " + r.b + " " + r.area());
 	}
-public static void hello(String somebody) {
-		 System.out.println("Hello, " + somebody + "!");
+//public static void hello(String somebody) {
+	//	 System.out.println("Hello, " + somebody + "!");
+//}
 }
-public static double area(double len){
-		return len * len;
-}
-public static double area(double a, double b){
-	return a*b;
-}
-}
+
